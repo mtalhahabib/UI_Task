@@ -36,7 +36,7 @@ class Upcoming extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      width: MediaQuery.of(context).size.width*0.75,
+                      width: MediaQuery.of(context).size.width*0.71,
                       child: Row(children: [
                        SizedBox(width: 10,),
                        Container(color: Colors.orange,width: 4,height: 70,),
@@ -100,7 +100,7 @@ class Upcoming extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      width: MediaQuery.of(context).size.width*0.75,
+                      width: MediaQuery.of(context).size.width*0.71,
                       child: Row(children: [
                        SizedBox(width: 10,),
                        Container(color: Colors.green,width: 4,height: 70,),
@@ -164,7 +164,7 @@ class Upcoming extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      width: MediaQuery.of(context).size.width*0.75,
+                      width: MediaQuery.of(context).size.width*0.71,
                       child: Row(children: [
                        SizedBox(width: 10,),
                        Container(color: Colors.purple,width: 4,height: 70,),
@@ -229,7 +229,7 @@ class Upcoming extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      width: MediaQuery.of(context).size.width*0.75,
+                      width: MediaQuery.of(context).size.width*0.71,
                       child: Row(children: [
                        SizedBox(width: 10,),
                        Container(color: Colors.yellow,width: 4,height: 70,),
@@ -250,7 +250,7 @@ class Upcoming extends StatelessWidget {
                               (backgroundColor: Colors.green[200],
                               radius: 12,child: Icon(Icons.person,color: Colors.pinkAccent,),)],) ,SizedBox(height: 10,),
                         
-                       SizedBox(height: 30,)
+                       SizedBox(height: 10,)
                          ],
                          
                        ),
@@ -262,8 +262,8 @@ class Upcoming extends StatelessWidget {
 
               
                   ],
-                )
- 
+                ),
+ SizedBox(height: 30,)
     ],);
   }
 }
